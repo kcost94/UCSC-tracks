@@ -1,0 +1,5 @@
+hub External_Data_cae28
+shortLabel External_Data_cae28
+longLabel External_Data_cae28
+genomesFile genomes2.txt
+email cae28@cam.ac.uk

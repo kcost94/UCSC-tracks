@@ -1,0 +1,137 @@
+track CorticalNeurons-MED1-RELNminus
+bigDataUrl http://jeremy-bio.gen.cam.ac.uk/CAE28_UCSC/External_Data_hub/BigWig/GSM1629382_CorticalNeurons-MED1-RELNminus.bigWig
+shortLabel CorticalNeurons-MED1-RELNminus
+longLabel CorticalNeurons-MED1-RELNminus
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+
+track CorticalNeurons-MED1-RELNplus
+bigDataUrl http://jeremy-bio.gen.cam.ac.uk/CAE28_UCSC/External_Data_hub/BigWig/GSM1629383_CorticalNeurons-MED1-RELNplus.bigWig
+shortLabel CorticalNeurons-MED1-RELNplus
+longLabel CorticalNeurons-MED1-RELNplus
+color 0,250,100
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:50
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track Smc1_E14.5_Limb
+bigDataUrl http://jeremy-bio.gen.cam.ac.uk/CAE28_UCSC/External_Data_hub/BigWig/GSM1036128_120503_Smc1_smc1_p00001_treat_afterfiting_all.norm.bw
+shortLabel Smc1_E14.5_Limb
+longLabel Smc1_E14.5_Limb
+color 250,50,100
+autoScale off
+viewLimits 0:2
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+
+track Smc1_E14.5_Cortex
+bigDataUrl http://jeremy-bio.gen.cam.ac.uk/CAE28_UCSC/External_Data_hub/BigWig/GSM1036133_MACS14_150bw_ChIP_norm.bw
+shortLabel Smc1_E14.5_Cortex
+longLabel Smc1_E14.5_Cortex
+color 100,250,150
+autoScale off
+viewLimits 0:2
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+
+track Gtl2_MatBrain1_smoothed
+bigDataUrl ../BigWig/counts_5_Gtl2_MatBrain_1.bw
+shortLabel Gtl2_MatBrain1_smoothed
+longLabel Gtl2_MatBrain1_smoothed
+color 250,0,100
+autoScale off
+viewLimits 0:10000
+viewLimitsMax 0:100
+alwaysZero on
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+track Gtl2_MatBrain2_smoothed
+bigDataUrl ../BigWig/counts_5_Gtl2_MatBrain_2.bw
+shortLabel Gtl2_MatBrain2_smoothed
+longLabel Gtl2_MatBrain2_smoothed
+color 250,0,100
+autoScale off
+viewLimits 0:10000
+viewLimitsMax 0:100
+alwaysZero on
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+track Gtl2_MatBrain3_smoothed
+bigDataUrl ../BigWig/counts_5_Gtl2_MatBrain_3.bw
+shortLabel Gtl2_MatBrain3_smoothed
+longLabel Gtl2_MatBrain3_smoothed
+color 250,0,100
+autoScale off
+viewLimits 0:10000
+viewLimitsMax 0:100
+alwaysZero on
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+
+track Gtl2_PatBrain1_smoothed
+bigDataUrl ../BigWig/counts_5_Gtl2_PatBrain_1.bw
+shortLabel Gtl2_PatBrain1_smoothed
+longLabel Gtl2_PatBrain1_smoothed
+color 100,0,250
+autoScale off
+viewLimits 0:10000
+viewLimitsMax 0:100
+alwaysZero on
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+track Gtl2_PatBrain2_smoothed
+bigDataUrl ../BigWig/counts_5_Gtl2_PatBrain_2.bw
+shortLabel Gtl2_PatBrain2_smoothed
+longLabel Gtl2_PatBrain2_smoothed
+color 100,0,250
+autoScale off
+viewLimits 0:10000
+viewLimitsMax 0:100
+alwaysZero on
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig
+
+track Gtl2_PatBrain3_smoothed
+bigDataUrl ../BigWig/counts_5_Gtl2_PatBrain_3.bw
+shortLabel Gtl2_PatBrain3_smoothed
+longLabel Gtl2_PatBrain3_smoothed
+color 100,0,250
+autoScale off
+viewLimits 0:10000
+viewLimitsMax 0:100
+alwaysZero on
+windowingFunction maximum
+maxHeightPixels 100:50:8
+type bigWig

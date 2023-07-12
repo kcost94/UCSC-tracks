@@ -1,0 +1,145 @@
+track CTCF_adultliver1
+bigDataUrl ../BigWig/log2ratio_1.bw
+shortLabel CTCF_liver1
+longLabel CTCF_ChIP_adultliver1
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track CTCF_adultliver2
+bigDataUrl ../BigWig/log2ratio_2.bw
+shortLabel CTCF_liver2
+longLabel CTCF_ChIP_adultliver2
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track CTCF_adultliver3
+bigDataUrl ../BigWig/log2ratio_3.bw
+shortLabel CTCF_liver3
+longLabel CTCF_ChIP_adultliver3
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+
+track CTCF_adultliver4
+bigDataUrl ../BigWig/log2ratio_4.bw
+shortLabel CTCF_liver4
+longLabel CTCF_ChIP_adultliver4
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+
+track CTCF_adultliver5
+bigDataUrl ../BigWig/log2ratio_5.bw
+shortLabel CTCF_liver5
+longLabel CTCF_ChIP_adultliver5
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+
+track CTCF_adultliver6
+bigDataUrl ../BigWig/log2ratio_6.bw
+shortLabel CTCF_liver6
+longLabel CTCF_ChIP_adultliver6
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+
+track CTCF_adultliver7
+bigDataUrl ../BigWig/log2ratio_7.bw
+shortLabel CTCF_liver7
+longLabel CTCF_ChIP_adultliver7
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+
+track CTCF_adultliver8
+bigDataUrl ../BigWig/log2ratio_8.bw
+shortLabel CTCF_liver8
+longLabel CTCF_ChIP_adultliver8
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track Liver_E15.5_minusStrand
+bigDataUrl ../BigWig/ENCFF705MBF.bigWig
+shortLabel Liver_E15.5_minusStrand
+longLabel Liver_E15.5_minusStrand
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
+track Liver_E15.5_plusStrand
+bigDataUrl ../BigWig/ENCFF275ITE.bigWig
+shortLabel Liver_E15.5_plusStrand
+longLabel Liver_E15.5_plusStrand
+color 19,209,190
+autoScale off
+viewLimits 0:8
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 4
+windowingFunction maximum
+maxHeightPixels 100:40:8
+type bigWig
+
