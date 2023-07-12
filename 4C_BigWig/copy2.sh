@@ -1,0 +1,16 @@
+cp /data/homes/cae28/BigWigs/Dl_IGPats_Cast_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_IGPats_Bl6_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_IGMats_Cast_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_IGMats_Bl6_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_Ct6Pats_Cast_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_Ct6Pats_Bl6_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_Ct6Mats_Cast_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_Ct6Mats_Bl6_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_CB_WTs_Cast_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_CB_WTs_Bl6_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_BC_WTs_Cast_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_BC_WTs_Bl6_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_895Pats_Cast_Mat.bw .
+cp /data/homes/cae28/BigWigs/Dl_895Pats_Bl6_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_895Mats_Cast_Pat.bw .
+cp /data/homes/cae28/BigWigs/Dl_895Mats_Bl6_Mat.bw .
