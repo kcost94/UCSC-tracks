@@ -1,0 +1,2024 @@
+track Gt 
+compositeTrack on 
+
+
+track CAST_SNP_Sanger_Institute
+bigDataUrl http://jeremy.gen.cam.ac.uk/UCSC/PUBLIC_DATA_mm10/BigBed/CAST_SNPs_PASS.bb
+shortLabel CAST SNP PASS
+longLabel CAST SNP PASS
+color 100,100,100
+type bigBed
+
+track Gt_BC_WTs
+container multiWig
+shortLabel Gt_BC_WTs
+longLabel Gt_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/Gt_BC_WTs_Cast_Pat.bw
+shortLabel Gt_BC_WTs_Cast_Pat
+longLabel Gt_BC_WTs_Cast_Pat
+parent Gt_BC_WTs
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_BC_WTs_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gt_BC_WTs_Bl6_Mat.bw
+shortLabel Gt_BC_WTs_Bl6_Mat
+longLabel Gt_BC_WTs_Bl6_Mat
+parent Gt_BC_WTs
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_CB_WTs
+container multiWig
+shortLabel Gt_CB_WTs
+longLabel Gt_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_CB_WTs_Bl6_Pat.bw
+shortLabel Gt_CB_WTs_Bl6_Pat
+longLabel Gt_CB_WTs_Bl6_Pat
+parent Gt_CB_WTs
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_CB_WTs_Cast_Mat
+bigDataUrl ../4C_BigWig/Gt_CB_WTs_Cast_Mat.bw
+shortLabel Gt_CB_WTs_Cast_Mat
+longLabel Gt_CB_WTs_Cast_Mat
+parent Gt_CB_WTs
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_IGMats
+container multiWig
+shortLabel Gt_IGMats
+longLabel Gt_IGMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_IGMats_Cast_Pat
+bigDataUrl ../4C_BigWig/Gt_IGMats_Cast_Pat.bw
+shortLabel Gt_IGMats_Cast_Pat
+longLabel Gt_IGMats_Cast_Pat
+parent Gt_IGMats
+color  0,150,255
+type bigWig
+parent Gt on
+
+track Gt_IGMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gt_IGMats_Bl6_Mat.bw
+shortLabel Gt_IGMats_Bl6_Mat
+longLabel Gt_IGMats_Bl6_Mat
+parent Gt_IGMats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_IGPats
+container multiWig
+shortLabel Gt_IGPats
+longLabel Gt_IGPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_IGPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_IGPats_Bl6_Pat.bw
+shortLabel Gt_IGPats_Bl6_Pat
+longLabel Gt_IGPats_Bl6_Pat
+parent Gt_IGPats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_IGPats_Cast_Mat
+bigDataUrl ../4C_BigWig/Gt_IGPats_Cast_Mat.bw
+shortLabel Gt_IGPats_Cast_Mat
+longLabel Gt_IGPats_Cast_Mat
+parent Gt_IGPats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_895Mats
+container multiWig
+shortLabel Gt_895Mats
+longLabel Gt_895Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_895Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Gt_895Mats_Cast_Pat.bw
+shortLabel Gt_895Mats_Cast_Pat
+longLabel Gt_895Mats_Cast_Pat
+parent Gt_895Mats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_895Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gt_895Mats_Bl6_Mat.bw
+shortLabel Gt_895Mats_Bl6_Mat
+longLabel Gt_895Mats_Bl6_Mat
+parent Gt_895Mats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_895Pats
+container multiWig
+shortLabel Gt_895Pats
+longLabel Gt_895Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_895Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_895Pats_Bl6_Pat.bw
+shortLabel Gt_895Pats_Bl6_Pat
+longLabel Gt_895Pats_Bl6_Pat
+parent Gt_895Pats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_895Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Gt_895Pats_Cast_Mat.bw
+shortLabel Gt_895Pats_Cast_Mat
+longLabel Gt_895Pats_Cast_Mat
+parent Gt_895Pats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_Ct6Mats
+container multiWig
+shortLabel Gt_Ct6Mats
+longLabel Gt_Ct6Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_Ct6Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Gt_Ct6Mats_Cast_Pat.bw
+shortLabel Gt_Ct6Mats_Cast_Pat
+longLabel Gt_Ct6Mats_Cast_Pat
+parent Gt_Ct6Mats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_Ct6Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gt_Ct6Mats_Bl6_Mat.bw
+shortLabel Gt_Ct6Mats_Bl6_Mat
+longLabel Gt_Ct6Mats_Bl6_Mat
+parent Gt_Ct6Mats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_Ct6Pats
+container multiWig
+shortLabel Gt_Ct6Pats
+longLabel Gt_Ct6Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_Ct6Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_Ct6Pats_Bl6_Pat.bw
+shortLabel Gt_Ct6Pats_Bl6_Pat
+longLabel Gt_Ct6Pats_Bl6_Pat
+parent Gt_Ct6Pats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_Ct6Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Gt_Ct6Pats_Cast_Mat.bw
+shortLabel Gt_Ct6Pats_Cast_Mat
+longLabel Gt_Ct6Pats_Cast_Mat
+parent Gt_Ct6Pats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Wd
+compositeTrack on
+
+track Wd_BC_WTs
+container multiWig
+shortLabel Wd_BC_WTs
+longLabel Wd_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/Wd_BC_WTs_Cast_Pat.bw
+shortLabel Wd_BC_WTs_Cast_Pat
+longLabel Wd_BC_WTs_Cast_Pat
+parent Wd_BC_WTs
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_BC_WTs_Bl6_Mat
+bigDataUrl ../4C_BigWig/Wd_BC_WTs_Bl6_Mat.bw
+shortLabel Wd_BC_WTs_Bl6_Mat
+longLabel Wd_BC_WTs_Bl6_Mat
+parent Wd_BC_WTs
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_CB_WTs
+container multiWig
+shortLabel Wd_CB_WTs
+longLabel Wd_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/Wd_CB_WTs_Bl6_Pat.bw
+shortLabel Wd_CB_WTs_Bl6_Pat
+longLabel Wd_CB_WTs_Bl6_Pat
+parent Wd_CB_WTs
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_CB_WTs_Cast_Mat
+bigDataUrl ../4C_BigWig/Wd_CB_WTs_Cast_Mat.bw
+shortLabel Wd_CB_WTs_Cast_Mat
+longLabel Wd_CB_WTs_Cast_Mat
+parent Wd_CB_WTs
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_IGMats
+container multiWig
+shortLabel Wd_IGMats
+longLabel Wd_IGMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_IGMats_Cast_Pat
+bigDataUrl ../4C_BigWig/Wd_IGMats_Cast_Pat.bw
+shortLabel Wd_IGMats_Cast_Pat
+longLabel Wd_IGMats_Cast_Pat
+parent Wd_IGMats
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_IGMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Wd_IGMats_Bl6_Mat.bw
+shortLabel Wd_IGMats_Bl6_Mat
+longLabel Wd_IGMats_Bl6_Mat
+parent Wd_IGMats
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_IGPats
+container multiWig
+shortLabel Wd_IGPats
+longLabel Wd_IGPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_IGPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Wd_IGPats_Bl6_Pat.bw
+shortLabel Wd_IGPats_Bl6_Pat
+longLabel Wd_IGPats_Bl6_Pat
+parent Wd_IGPats
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_IGPats_Cast_Mat
+bigDataUrl ../4C_BigWig/Wd_IGPats_Cast_Mat.bw
+shortLabel Wd_IGPats_Cast_Mat
+longLabel Wd_IGPats_Cast_Mat
+parent Wd_IGPats
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_895Mats
+container multiWig
+shortLabel Wd_895Mats
+longLabel Wd_895Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_895Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Wd_895Mats_Cast_Pat.bw
+shortLabel Wd_895Mats_Cast_Pat
+longLabel Wd_895Mats_Cast_Pat
+parent Wd_895Mats
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_895Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Wd_895Mats_Bl6_Mat.bw
+shortLabel Wd_895Mats_Bl6_Mat
+longLabel Wd_895Mats_Bl6_Mat
+parent Wd_895Mats
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_895Pats
+container multiWig
+shortLabel Wd_895Pats
+longLabel Wd_895Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_895Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Wd_895Pats_Bl6_Pat.bw
+shortLabel Wd_895Pats_Bl6_Pat
+longLabel Wd_895Pats_Bl6_Pat
+parent Wd_895Pats
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_895Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Wd_895Pats_Cast_Mat.bw
+shortLabel Wd_895Pats_Cast_Mat
+longLabel Wd_895Pats_Cast_Mat
+parent Wd_895Pats
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_Ct6Mats
+container multiWig
+shortLabel Wd_Ct6Mats
+longLabel Wd_Ct6Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_Ct6Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Wd_Ct6Mats_Cast_Pat.bw
+shortLabel Wd_Ct6Mats_Cast_Pat
+longLabel Wd_Ct6Mats_Cast_Pat
+parent Wd_Ct6Mats
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_Ct6Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Wd_Ct6Mats_Bl6_Mat.bw
+shortLabel Wd_Ct6Mats_Bl6_Mat
+longLabel Wd_Ct6Mats_Bl6_Mat
+parent Wd_Ct6Mats
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Wd_Ct6Pats
+container multiWig
+shortLabel Wd_Ct6Pats
+longLabel Wd_Ct6Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Wd on
+
+track Wd_Ct6Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Wd_Ct6Pats_Bl6_Pat.bw
+shortLabel Wd_Ct6Pats_Bl6_Pat
+longLabel Wd_Ct6Pats_Bl6_Pat
+parent Wd_Ct6Pats
+color 0,150,255
+type bigWig
+parent Wd on
+
+track Wd_Ct6Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Wd_Ct6Pats_Cast_Mat.bw
+shortLabel Wd_Ct6Pats_Cast_Mat
+longLabel Wd_Ct6Pats_Cast_Mat
+parent Wd_Ct6Pats
+color 255,0,0
+type bigWig
+parent Wd on
+
+track Dl
+compositeTrack on
+
+track Dl_BC_WTs
+container multiWig
+shortLabel Dl_BC_WTs
+longLabel Dl_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/Dl_BC_WTs_Cast_Pat.bw
+shortLabel Dl_BC_WTs_Cast_Pat
+longLabel Dl_BC_WTs_Cast_Pat
+parent Dl_BC_WTs
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_BC_WTs_Bl6_Mat
+bigDataUrl ../4C_BigWig/Dl_BC_WTs_Bl6_Mat.bw
+shortLabel Dl_BC_WTs_Bl6_Mat
+longLabel Dl_BC_WTs_Bl6_Mat
+parent Dl_BC_WTs
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_CB_WTs
+container multiWig
+shortLabel Dl_CB_WTs
+longLabel Dl_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/Dl_CB_WTs_Bl6_Pat.bw
+shortLabel Dl_CB_WTs_Bl6_Pat
+longLabel Dl_CB_WTs_Bl6_Pat
+parent Dl_CB_WTs
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_CB_WTs_Cast_Mat
+bigDataUrl ../4C_BigWig/Dl_CB_WTs_Cast_Mat.bw
+shortLabel Dl_CB_WTs_Cast_Mat
+longLabel Dl_CB_WTs_Cast_Mat
+parent Dl_CB_WTs
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_IGMats
+container multiWig
+shortLabel Dl_IGMats
+longLabel Dl_IGMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_IGMats_Cast_Pat
+bigDataUrl ../4C_BigWig/Dl_IGMats_Cast_Pat.bw
+shortLabel Dl_IGMats_Cast_Pat
+longLabel Dl_IGMats_Cast_Pat
+parent Dl_IGMats
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_IGMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Dl_IGMats_Bl6_Mat.bw
+shortLabel Dl_IGMats_Bl6_Mat
+longLabel Dl_IGMats_Bl6_Mat
+parent Dl_IGMats
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_IGPats
+container multiWig
+shortLabel Dl_IGPats
+longLabel Dl_IGPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_IGPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Dl_IGPats_Bl6_Pat.bw
+shortLabel Dl_IGPats_Bl6_Pat
+longLabel Dl_IGPats_Bl6_Pat
+parent Dl_IGPats
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_IGPats_Cast_Mat
+bigDataUrl ../4C_BigWig/Dl_IGPats_Cast_Mat.bw
+shortLabel Dl_IGPats_Cast_Mat
+longLabel Dl_IGPats_Cast_Mat
+parent Dl_IGPats
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_895Mats
+container multiWig
+shortLabel Dl_895Mats
+longLabel Dl_895Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_895Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Dl_895Mats_Cast_Pat.bw
+shortLabel Dl_895Mats_Cast_Pat
+longLabel Dl_895Mats_Cast_Pat
+parent Dl_895Mats
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_895Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Dl_895Mats_Bl6_Mat.bw
+shortLabel Dl_895Mats_Bl6_Mat
+longLabel Dl_895Mats_Bl6_Mat
+parent Dl_895Mats
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_895Pats
+container multiWig
+shortLabel Dl_895Pats
+longLabel Dl_895Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_895Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Dl_895Pats_Bl6_Pat.bw
+shortLabel Dl_895Pats_Bl6_Pat
+longLabel Dl_895Pats_Bl6_Pat
+parent Dl_895Pats
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_895Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Dl_895Pats_Cast_Mat.bw
+shortLabel Dl_895Pats_Cast_Mat
+longLabel Dl_895Pats_Cast_Mat
+parent Dl_895Pats
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_Ct6Mats
+container multiWig
+shortLabel Dl_Ct6Mats
+longLabel Dl_Ct6Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_Ct6Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Dl_Ct6Mats_Cast_Pat.bw
+shortLabel Dl_Ct6Mats_Cast_Pat
+longLabel Dl_Ct6Mats_Cast_Pat
+parent Dl_Ct6Mats
+color 0,150,255
+type bigWig
+
+track Dl_Ct6Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Dl_Ct6Mats_Bl6_Mat.bw
+shortLabel Dl_Ct6Mats_Bl6_Mat
+longLabel Dl_Ct6Mats_Bl6_Mat
+parent Dl_Ct6Mats
+color 255,0,0
+type bigWig
+parent Dl on
+
+track Dl_Ct6Pats
+container multiWig
+shortLabel Dl_Ct6Pats
+longLabel Dl_Ct6Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Dl on
+
+track Dl_Ct6Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Dl_Ct6Pats_Bl6_Pat.bw
+shortLabel Dl_Ct6Pats_Bl6_Pat
+longLabel Dl_Ct6Pats_Bl6_Pat
+parent Dl_Ct6Pats
+color 0,150,255
+type bigWig
+parent Dl on
+
+track Dl_Ct6Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Dl_Ct6Pats_Cast_Mat.bw
+shortLabel Dl_Ct6Pats_Cast_Mat
+longLabel Dl_Ct6Pats_Cast_Mat
+parent Dl_Ct6Pats
+color 255,0,0
+type bigWig
+parent Dl on
+
+
+track Gt_Ct7Mats
+container multiWig
+shortLabel Gt_Ct7Mats
+longLabel Gt_Ct7Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_Ct7Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/Gt_Ct7_Mats_Cast_Pat_Extrareads.bw
+shortLabel Gt_Ct7Mats_Cast_Pat
+longLabel Gt_Ct7Mats_Cast_Pat
+parent Gt_Ct7Mats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_Ct7Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gt_Ct7_Mats_CBA_Mat_Extrareads.bw
+shortLabel Gt_Ct7Mats_Bl6_Mat
+longLabel Gt_Ct7Mats_Bl6_Mat
+parent Gt_Ct7Mats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_Ct7Pats
+container multiWig
+shortLabel Gt_Ct7Pats
+longLabel Gt_Ct7Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_Ct7Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_Ct7_Pats_Bl6_Patnew.bw
+shortLabel Gt_Ct7Pats_Bl6_Pat
+longLabel Gt_Ct7Pats_Bl6_Pat
+parent Gt_Ct7Pats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_Ct7Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/Gt_Ct7_Pats_Cast_Matnew.bw
+shortLabel Gt_Ct7Pats_Cast_Mat
+longLabel Gt_Ct7Pats_Cast_Mat
+parent Gt_Ct7Pats
+color 255,0,0
+type bigWig
+parent Gt on
+
+
+track Gt_IndelMats
+container multiWig
+shortLabel Gt_IndelMats
+longLabel Gt_IndelMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_IndelMats_Cast_Pat
+bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Mats_Cast_Pat.bw
+shortLabel Gt_IndelMats_Cast_Pat
+longLabel Gt_IndelMats_Cast_Pat
+parent Gt_IndelMats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_IndelMats_Bl6_Mat
+bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Mats_Bl6_Mat.bw
+shortLabel Gt_IndelMats_Bl6_Mat
+longLabel Gt_IndelMats_Bl6_Mat
+parent Gt_IndelMats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gt_IndelPats
+container multiWig
+shortLabel Gt_IndelPats
+longLabel Gt_IndelPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gt on
+
+track Gt_IndelPats_Bl6_Pat
+bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Pats_Bl6_Pat.bw
+shortLabel Gt_IndelPats_Bl6_Pat
+longLabel Gt_IndelPats_Bl6_Pat
+parent Gt_IndelPats
+color 0,150,255
+type bigWig
+parent Gt on
+
+track Gt_IndelPats_Cast_Mat
+bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Pats_Cast_Mat.bw
+shortLabel Gt_IndelPats_Cast_Mat
+longLabel Gt_IndelPats_Cast_Mat
+parent Gt_IndelPats
+color 255,0,0
+type bigWig
+parent Gt on
+
+track Gtl17
+compositeTrack on
+
+track Gtl17_Liv_BC_WTs
+container multiWig
+shortLabel Gtl17_Liv_BC_WTs
+longLabel Gtl17_Liv_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Liv_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/Gtl17_Liv_BC_Pats.bw
+shortLabel Gt17_Liv_BC_Pat
+longLabel Gtl17_Liv_BC_WTs_Cast_Pat
+parent Gtl17_Liv_BC_WTs
+color 0,150,255
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Liv_BC_WTs_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gtl17_Liv_BC_Mats.bw
+shortLabel Gt17_Liv_BC_Mat
+longLabel Gtl17_Liv_BC_WTs_Bl6_Mat
+parent Gtl17_Liv_BC_WTs
+color 255,0,0
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Liv_CB_WTs
+container multiWig
+shortLabel Gtl17_Liv_CB_WTs
+longLabel Gtl17_Liv_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Liv_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gtl17_Liv_CB_Pats.bw
+shortLabel Gt17_Liv_CB_Pat
+longLabel Gtl17_Liv_CB_WTs_Bl6_Pat
+parent Gtl17_Liv_CB_WTs
+color 0,150,255
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Liv_CB_WTs_Cast_Mat
+bigDataUrl ../4C_BigWig/Gtl17_Liv_CB_Mats.bw
+shortLabel Gt17_Liv_CB_Mat
+longLabel Gtl17_Liv_CB_WTs_Cast_Mat
+parent Gtl17_Liv_CB_WTs
+color 255,0,0
+type bigWig
+parent Gtl17 on
+
+track Gtl17_ESCs_BC_WTs
+container multiWig
+shortLabel Gtl17_ESCs_BC_WTs
+longLabel Gtl17_ESCs_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gtl17 on
+
+track Gtl17_ESCs_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/Gtl17_ESCs_BC_Pats.bw
+shortLabel Gt17_ESCs_BC_Pat
+longLabel Gtl17_ESCs_BC_WTs_Cast_Pat
+parent Gtl17_ESCs_BC_WTs
+color 0,150,255
+type bigWig
+parent Gtl17 on
+
+track Gtl17_ESCs_BC_WTs_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gtl17_ESCs_BC_Mats.bw
+shortLabel Gt17_ESCs_BC_Mat
+longLabel Gtl17_ESCs_BC_WTs_Bl6_Mat
+parent Gtl17_ESCs_BC_WTs
+color 255,0,0
+type bigWig
+parent Gtl17 on
+
+track Gtl17_ESCs_CB_WTs
+container multiWig
+shortLabel Gtl17_ESCs_CB_WTs
+longLabel Gtl17_ESCs_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gtl17 on
+
+track Gtl17_ESCs_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gtl17_ESCs_CB_Pats.bw
+shortLabel Gt17_ESCs_CB_Pat
+longLabel Gtl17_ESCs_CB_WTs_Bl6_Pat
+parent Gtl17_ESCs_CB_WTs
+color 0,150,255
+type bigWig
+parent Gtl17 on
+
+track Gtl17_ESCs_CB_WTs_Cast_Mat
+bigDataUrl ../4C_BigWig/Gtl17_ESCs_CB_Mats.bw
+shortLabel Gt17_ESCs_CB_Mat
+longLabel Gtl17_ESCs_CB_WTs_Cast_Mat
+parent Gtl17_ESCs_CB_WTs
+color 255,0,0
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Br_BC_WTs
+container multiWig
+shortLabel Gtl17_Br_BC_WTs
+longLabel Gtl17_Br_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Br_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/Gtl17_Br_BC_Pats.bw
+shortLabel Gt17_Br_BC_Pat
+longLabel Gtl17_Br_BC_WTs_Cast_Pat
+parent Gtl17_Br_BC_WTs
+color 0,150,255
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Br_BC_WTs_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gtl17_Br_BC_Mats.bw
+shortLabel Gt17_Br_BC_Mat
+longLabel Gtl17_Br_BC_WTs_Bl6_Mat
+parent Gtl17_Br_BC_WTs
+color 255,0,0
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Br_CB_WTs
+container multiWig
+shortLabel Gtl17_Br_CB_WTs
+longLabel Gtl17_Br_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Br_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gtl17_Br_CB_Pats.bw
+shortLabel Gt17_Br_CB_Pat
+longLabel Gtl17_Br_CB_WTs_Bl6_Pat
+parent Gtl17_Br_CB_WTs
+color 0,150,255
+type bigWig
+parent Gtl17 on
+
+track Gtl17_Br_CB_WTs_Cast_Mat
+bigDataUrl ../4C_BigWig/Gtl17_Br_CB_Mats.bw
+shortLabel Gt17_Br_CB_Mat
+longLabel Gtl17_Br_CB_WTs_Cast_Mat
+parent Gtl17_Br_CB_WTs
+color 255,0,0
+type bigWig
+parent Gtl17 on
+
+track Dlk15_Liver
+container multiWig
+shortLabel Dlk15_Liver
+longLabel Dlk15_Liver
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track Dlk15_Liver_Pats
+bigDataUrl ../4C_BigWig/Dlk15_Liver_Pats.bw
+shortLabel Dlk15_Liver_Pats
+longLabel Dlk15_Liver_Pats
+parent Dlk15_Liver
+color 0,150,255
+type bigWig
+
+track Dlk15_Liver_Mats
+bigDataUrl ../4C_BigWig/Dlk15_Liver_Mats.bw
+shortLabel Dlk15_Liver_Mats
+longLabel Dlk15_Liver_Mats
+parent Dlk15_Liver
+color 255,0,0
+type bigWig
+
+track Dlk15_Brain
+container multiWig
+shortLabel Dlk15_Brain
+longLabel Dlk15_Brain
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track Dlk15_Brain_Pats
+bigDataUrl ../4C_BigWig/Dlk15_Brain_Pats.bw
+shortLabel Dlk15_Brain_Pats
+longLabel Dlk15_Brain_Pats
+parent Dlk15_Brain
+color 0,150,255
+type bigWig
+
+track Dlk15_Brain_Mats
+bigDataUrl ../4C_BigWig/Dlk15_Brain_Mats.bw
+shortLabel Dlk15_Brain_Mats
+longLabel Dlk15_Brain_Mats
+parent Dlk15_Brain
+color 255,0,0
+type bigWig
+
+track IG15_Liver
+container multiWig
+shortLabel IG15_Liver
+longLabel IG15_Liver
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track IG15_Liver_Pats
+bigDataUrl ../4C_BigWig/IG15_Liver_Pats.bw
+shortLabel IG15_Liver_Pats
+longLabel IG15_Liver_Pats
+parent IG15_Liver
+color 0,150,255
+type bigWig
+
+track IG15_Liver_Mats
+bigDataUrl ../4C_BigWig/IG15_Liver_Mats.bw
+shortLabel IG15_Liver_Mats
+longLabel IG15_Liver_Mats
+parent IG15_Liver
+color 255,0,0
+type bigWig
+
+track IG15_Brain
+container multiWig
+shortLabel IG15_Brain
+longLabel IG15_Brain
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track IG15_Brain_Pats
+bigDataUrl ../4C_BigWig/IG15_Brain_Pats.bw
+shortLabel IG15_Brain_Pats
+longLabel IG15_Brain_Pats
+parent IG15_Brain
+color 0,150,255
+type bigWig
+
+track IG15_Brain_Mats
+bigDataUrl ../4C_BigWig/IG15_Brain_Mats.bw
+shortLabel IG15_Brain_Mats
+longLabel IG15_Brain_Mats
+parent IG15_Brain
+color 255,0,0
+type bigWig
+
+track IG15_ESCs
+container multiWig
+shortLabel IG15_ESCs
+longLabel IG15_ESCs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track IG15_ESCs_Pats
+bigDataUrl ../4C_BigWig/IG15_ESCs_Pats.bw
+shortLabel IG15_ESCs_Pats
+longLabel IG15_ESCs_Pats
+parent IG15_ESCs
+color 0,150,255
+type bigWig
+
+track IG15_ESCs_Mats
+bigDataUrl ../4C_BigWig/IG15_ESCs_Mats.bw
+shortLabel IG15_ESCs_Mats
+longLabel IG15_ESCs_Mats
+parent IG15_ESCs
+color 255,0,0
+type bigWig
+
+track Wd_CGIPat6
+container multiWig
+shortLabel Wd_CGIPat6
+longLabel Wd_CGIPat6
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track Wd_CGIPat6_Bl6_Pat
+bigDataUrl ../4C_BigWig/Wd_CGI_Pat6_pat.bw
+shortLabel Wd_CGIPat6_Bl6_Pat
+longLabel Wd_CGIPat6_Bl6_Pat
+parent Wd_CGIPat6
+color 0,150,255
+type bigWig
+
+track Wd_CGIPat6_Cast_Mat
+bigDataUrl ../4C_BigWig/Wd_CGI_Pat6_mat.bw
+shortLabel Wd_CGIPat6_Cast_Mat
+longLabel Wd_CGIPat6_Cast_Mat
+parent Wd_CGIPat6
+color 255,0,0
+type bigWig
+
+
+track Gt_CGIPat6
+container multiWig
+shortLabel Gt_CGIPat6
+longLabel Gt_CGIPat6
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track Gt_CGIPat6_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_CGI_Pat6_pat.bw
+shortLabel Gt_CGIPat6_Bl6_Pat
+longLabel Gt_CGIPat6_Bl6_Pat
+parent Gt_CGIPat6
+color 0,150,255
+type bigWig
+
+track Gt_CGIPat6_Cast_Mat
+bigDataUrl ../4C_BigWig/Gt_CGI_Pat6_mat.bw
+shortLabel Gt_CGIPat6_Cast_Mat
+longLabel Gt_CGIPat6_Cast_Mat
+parent Gt_CGIPat6
+color 255,0,0
+type bigWig
+
+
+track Dl_Ct7Mats
+container multiWig
+shortLabel Dl_Ct7Mats
+longLabel Dl_Ct7Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track Dl_Ct7Mats_Cast_Pat
+bigDataUrl  ../4C_BigWig/Dl_Ct7_Mats_Cast_pat.bw
+shortLabel Dl_Ct7Mats_Cast_Pat
+longLabel Dl_Ct7Mats_Cast_Pat
+parent Dl_Ct7Mats
+color 0,150,255
+type bigWig
+
+track Dl_Ct7Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Dl_Ct7_Mats_CBA_mat.bw
+shortLabel Dl_Ct7Mats_Bl6_Mat
+longLabel Dl_Ct7Mats_Bl6_Mat
+parent Dl_Ct7Mats
+color 255,0,0
+type bigWig
+
+track AST_Gt_BC_WTs
+container multiWig
+shortLabel AST_Gt_BC_WTs
+longLabel AST_Gt_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_BC_Wts_Cast_pat.bw
+shortLabel AST_Gt_BC_WTs_Cast_Pat
+longLabel AST_Gt_BC_WTs_Cast_Pat
+parent AST_Gt_BC_WTs
+color 0,150,255
+type bigWig
+
+track AST_Gt_BC_WTs_Bl6_Mat
+bigDataUrl  ../4C_BigWig/AST_Gt_BC_Wts_Bl6_mat.bw
+shortLabel AST_Gt_BC_WTs_Bl6_Mat
+longLabel AST_Gt_BC_WTs_Bl6_Mat
+parent AST_Gt_BC_WTs
+color 255,0,0
+type bigWig
+
+track AST_Gt_CB_WTs
+container multiWig
+shortLabel AST_Gt_CB_WTs
+longLabel AST_Gt_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_CB_Wts_Bl6_pat.bw
+shortLabel AST_Gt_CB_WTs_Bl6_Pat
+longLabel AST_Gt_CB_WTs_Bl6_Pat
+parent AST_Gt_CB_WTs
+color 0,150,255
+type bigWig
+
+track AST_Gt_CB_WTs_Cast_Mat
+bigDataUrl  ../4C_BigWig/AST_Gt_CB_Wts_Cast_mat.bw
+shortLabel AST_Gt_CB_WTs_Cast_Mat
+longLabel AST_Gt_CB_WTs_Cast�_Mat
+parent AST_Gt_CB_WTs
+color 255,0,0
+type bigWig
+
+
+track AST_Dl_BC_WTs
+container multiWig
+shortLabel AST_Dl_BC_WTs
+longLabel AST_Dl_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Dl_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Dl_BC_Wts_Cast_pat.bw
+shortLabel AST_Dl_BC_WTs_Cast_Pat
+longLabel AST_Dl_BC_WTs_Cast_Pat
+parent AST_Dl_BC_WTs
+color 0,150,255
+type bigWig
+
+track AST_Dl_BC_WTs_Bl6_Mat
+bigDataUrl  ../4C_BigWig/AST_Dl_BC_Wts_Bl6_mat.bw
+shortLabel AST_Dl_BC_WTs_Bl6_Mat
+longLabel AST_Dl_BC_WTs_Bl6_Mat
+parent AST_Dl_BC_WTs
+color 255,0,0
+type bigWig
+
+track AST_Dl_CB_WTs
+container multiWig
+shortLabel AST_Dl_CB_WTs
+longLabel AST_Dl_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Dl_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Dl_CB_Wts_Bl6_pat.bw
+shortLabel AST_Dl_CB_WTs_Bl6_Pat
+longLabel AST_Dl_CB_WTs_Bl6_Pat
+parent AST_Dl_CB_WTs
+color 0,150,255
+type bigWig
+
+track AST_Dl_CB_WTs_Cast_Mat
+bigDataUrl  ../4C_BigWig/AST_Dl_CB_Wts_Cast_mat.bw
+shortLabel AST_Dl_CB_WTs_Cast_Mat
+longLabel AST_Dl_CB_WTs_CastMat
+parent AST_Dl_CB_WTs
+color 255,0,0
+type bigWig
+
+track AST_Wd_BC_WTs
+container multiWig
+shortLabel AST_Wd_BC_WTs
+longLabel AST_Wd_BC_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Wd_BC_WTs_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Wd_BC_Wts_Cast_pat.bw
+shortLabel AST_Wd_BC_WTs_Cast_Pat
+longLabel AST_Wd_BC_WTs_Cast_Pat
+parent AST_Wd_BC_WTs
+color 0,150,255
+type bigWig
+
+track AST_Wd_BC_WTs_Bl6_Mat
+bigDataUrl  ../4C_BigWig/AST_Wd_BC_Wts_Bl6_mat.bw
+shortLabel AST_Wd_BC_WTs_Bl6_Mat
+longLabel AST_Wd_BC_WTs_Bl6_Mat
+parent AST_Wd_BC_WTs
+color 255,0,0
+type bigWig
+
+track AST_Wd_CB_WTs
+container multiWig
+shortLabel AST_Wd_CB_WTs
+longLabel AST_Wd_CB_WTs
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Wd_CB_WTs_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Wd_CB_Wts_Bl6_pat.bw
+shortLabel AST_Wd_CB_WTs_Bl6_Pat
+longLabel AST_Wd_CB_WTs_Bl6_Pat
+parent AST_Wd_CB_WTs
+color 0,150,255
+type bigWig
+
+track AST_Wd_CB_WTs_Cast_Mat
+bigDataUrl  ../4C_BigWig/AST_Wd_CB_Wts_Cast_mat.bw
+shortLabel AST_Wd_CB_WTs_Cast_Mat
+longLabel AST_Wd_CB_WTs_CastMat
+parent AST_Wd_CB_WTs
+color 255,0,0
+type bigWig
+
+
+track AST_Gt_895Mats
+container multiWig
+shortLabel AST_Gt_895Mats
+longLabel AST_Gt_895Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_895Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_895_MatHets_Cast_pat.bw
+shortLabel AST_Gt_895Mats_Cast_Pat
+longLabel AST_Gt_895Mats_Cast_Pat
+parent AST_Gt_895Mats
+color 0,150,255
+type bigWig
+
+track AST_Gt_895Mats_Bl6_Mat
+bigDataUrl ../4C_BigWig/AST_Gt_895_MatHets_Bl6_mat.bw
+shortLabel AST_Gt_895Mats_Bl6_Mat
+longLabel AST_Gt_895Mats_Bl6_Mat
+parent AST_Gt_895Mats
+color 255,0,0
+type bigWig
+
+track AST_Gt_895Pats
+container multiWig
+shortLabel AST_Gt_895Pats
+longLabel AST_Gt_895Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_895Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_895_PatHets_Bl6_pat_2reps.bw
+shortLabel AST_Gt_895Pats_Bl6_Pat
+longLabel AST_Gt_895Pats_Bl6_Pat
+parent AST_Gt_895Pats
+color 0,150,255
+type bigWig
+
+track AST_Gt_895Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/AST_Gt_895_PatHets_Cast_mat_2reps.bw
+shortLabel AST_Gt_895Pats_Cast_Mat
+longLabel AST_Gt_895Pats_Cast_Mat
+parent AST_Gt_895Pats
+color 255,0,0
+type bigWig
+
+
+
+
+track AST_Gt_CT7Mats
+container multiWig
+shortLabel AST_Gt_CT7Mats
+longLabel AST_Gt_CT7Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_CT7Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_CT7_MatHets_Cast_pat.bw
+shortLabel AST_Gt_CT7Mats_Cast_Pat
+longLabel AST_Gt_CT7Mats_Cast_Pat
+parent AST_Gt_CT7Mats
+color 0,150,255
+type bigWig
+
+track AST_Gt_CT7Mats_CBA_Mat
+bigDataUrl ../4C_BigWig/AST_Gt_CT7_MatHets_CBA_mat.bw
+shortLabel AST_Gt_CT7Mats_CBA_Mat
+longLabel AST_Gt_CT7Mats_CBA_Mat
+parent AST_Gt_CT7Mats
+color 255,0,0
+type bigWig
+
+track AST_Gt_CT7Pats
+container multiWig
+shortLabel AST_Gt_CT7Pats
+longLabel AST_Gt_CT7Pats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_CT7Pats_CBA_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_CT7_PatHets_CBA_pat.bw
+shortLabel AST_Gt_CT7Pats_CBA_Pat
+longLabel AST_Gt_CT7Pats_CBA_Pat
+parent AST_Gt_CT7Pats
+color 0,150,255
+type bigWig
+
+track AST_Gt_CT7Pats_Cast_Mat
+bigDataUrl ../4C_BigWig/AST_Gt_CT7_PatHets_Cast_mat.bw
+shortLabel AST_Gt_CT7Pats_Cast_Mat
+longLabel AST_Gt_CT7Pats_Cast_Mat
+parent AST_Gt_CT7Pats
+color 255,0,0
+type bigWig
+
+
+
+
+track AST_Gt_CGIMats
+container multiWig
+shortLabel AST_Gt_CGIMats
+longLabel AST_Gt_CGIMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_CGIMats_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_CGI_MatHets_Cast_pat.bw
+shortLabel AST_Gt_CGIMats_Cast_Pat
+longLabel AST_Gt_CGIMats_Cast_Pat
+parent AST_Gt_CGIMats
+color 0,150,255
+type bigWig
+
+track AST_Gt_CGIMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/AST_Gt_CGI_MatHets_Bl6_mat.bw
+shortLabel AST_Gt_CGIMats_Bl6_Mat
+longLabel AST_Gt_CGIMats_Bl6_Mat
+parent AST_Gt_CGIMats
+color 255,0,0
+type bigWig
+
+track AST_Gt_CGIPats
+container multiWig
+shortLabel AST_Gt_CGIPats
+longLabel AST_Gt_CGIPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Gt_CGIPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Gt_CGI_PatHets_Bl6_pat.bw
+shortLabel AST_Gt_CGIPats_Bl6_Pat
+longLabel AST_Gt_CGIPats_Bl6_Pat
+parent AST_Gt_CGIPats
+color 0,150,255
+type bigWig
+
+track AST_Gt_CGIPats_Cast_Mat
+bigDataUrl ../4C_BigWig/AST_Gt_CGI_PatHets_Cast_mat.bw
+shortLabel AST_Gt_CGIPats_Cast_Mat
+longLabel AST_Gt_CGIPats_Cast_Mat
+parent AST_Gt_CGIPats
+color 255,0,0
+type bigWig
+
+
+track AST_Dl_CGIMats
+container multiWig
+shortLabel AST_Dl_CGIMats
+longLabel AST_Dl_CGIMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Dl_CGIMats_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Dl_CGI_MatHets_Cast_pat.bw
+shortLabel AST_Dl_CGIMats_Cast_Pat
+longLabel AST_Dl_CGIMats_Cast_Pat
+parent AST_Dl_CGIMats
+color 0,150,255
+type bigWig
+
+track AST_Dl_CGIMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/AST_Dl_CGI_MatHets_Bl6_mat.bw
+shortLabel AST_Dl_CGIMats_Bl6_Mat
+longLabel AST_Dl_CGIMats_Bl6_Mat
+parent AST_Dl_CGIMats
+color 255,0,0
+type bigWig
+
+track AST_Dl_CGIPats
+container multiWig
+shortLabel AST_Dl_CGIPats
+longLabel AST_Dl_CGIPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Dl_CGIPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Dl_CGI_PatHets_Bl6_pat.bw
+shortLabel AST_Dl_CGIPats_Bl6_Pat
+longLabel AST_Dl_CGIPats_Bl6_Pat
+parent AST_Dl_CGIPats
+color 0,150,255
+type bigWig
+
+track AST_Dl_CGIPats_Cast_Mat
+bigDataUrl ../4C_BigWig/AST_Dl_CGI_PatHets_Cast_mat.bw
+shortLabel AST_Dl_CGIPats_Cast_Mat
+longLabel AST_Dl_CGIPats_Cast_Mat
+parent AST_Dl_CGIPats
+color 255,0,0
+type bigWig
+
+
+
+
+track AST_Wd_CGIMats
+container multiWig
+shortLabel AST_Wd_CGIMats
+longLabel AST_Wd_CGIMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Wd_CGIMats_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Wd_CGI_MatHets_Cast_pat.bw
+shortLabel AST_Wd_CGIMats_Cast_Pat
+longLabel AST_Wd_CGIMats_Cast_Pat
+parent AST_Wd_CGIMats
+color 0,150,255
+type bigWig
+
+track AST_Wd_CGIMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/AST_Wd_CGI_MatHets_Bl6_mat.bw
+shortLabel AST_Wd_CGIMats_Bl6_Mat
+longLabel AST_Wd_CGIMats_Bl6_Mat
+parent AST_Wd_CGIMats
+color 255,0,0
+type bigWig
+
+track AST_Wd_CGIPats
+container multiWig
+shortLabel AST_Wd_CGIPats
+longLabel AST_Wd_CGIPats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Wd_CGIPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/AST_Wd_CGI_PatHets_Bl6_pat.bw
+shortLabel AST_Wd_CGIPats_Bl6_Pat
+longLabel AST_Wd_CGIPats_Bl6_Pat
+parent AST_Wd_CGIPats
+color 0,150,255
+type bigWig
+
+track AST_Wd_CGIPats_Cast_Mat
+bigDataUrl ../4C_BigWig/AST_Wd_CGI_PatHets_Cast_mat.bw
+shortLabel AST_Wd_CGIPats_Cast_Mat
+longLabel AST_Wd_CGIPats_Cast_Mat
+parent AST_Wd_CGIPats
+color 255,0,0
+type bigWig
+
+track AST_Dl_CT7Mats
+container multiWig
+shortLabel AST_Dl_CT7Mats
+longLabel AST_Dl_CT7Mats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track AST_Dl_CT7Mats_Cast_Pat
+bigDataUrl ../4C_BigWig/AST_Dl_CT7_MatHets_Cast_pat.bw
+shortLabel AST_Dl_CT7Mats_Cast_Pat
+longLabel AST_Dl_CT7Mats_Cast_Pat
+parent AST_Dl_CT7Mats
+color 0,150,255
+type bigWig
+
+track AST_Dl_CT7Mats_CBA_Mat
+bigDataUrl ../4C_BigWig/AST_Dl_CT7_MatHets_CBA_mat.bw
+shortLabel AST_Dl_CT7Mats_CBA_Mat
+longLabel AST_Dl_CT7Mats_CBA_Mat
+parent AST_Dl_CT7Mats
+color 255,0,0
+type bigWig
