@@ -121,7 +121,7 @@ track Gt_Liv_IGMats_Cast_Pat
 bigDataUrl ../4C_BigWig/Liver_Gt_IG_Mats_Cast_pat.bw
 shortLabel Gt_Liv_IGMats_Cast_Pat
 longLabel Gt_Liv_IGMats_Cast_Pat
-parent Gt_IGMats
+parent Gt_Liv_IGMats
 color  0,150,255
 type bigWig
 
@@ -129,7 +129,7 @@ track Gt_Liv_IGMats_Bl6_Mat
 bigDataUrl ../4C_BigWig/Liver_Gt_IG_Mats_Bl6_mat.bw
 shortLabel Gt_Liv_IGMats_Bl6_Mat
 longLabel Gt_Liv_IGMats_Bl6_Mat
-parent Gt_IGMats
+parent Gt_Liv_IGMats
 color 255,0,0
 type bigWig
 
@@ -1449,7 +1449,7 @@ type bigWig
 track AST_Gt_CB_WTs_Cast_Mat
 bigDataUrl  ../4C_BigWig/AST_Gt_CB_Wts_Cast_mat.bw
 shortLabel AST_Gt_CB_WTs_Cast_Mat
-longLabel AST_Gt_CB_WTs_Cast­_Mat
+longLabel AST_Gt_CB_WTs_CastÂ­_Mat
 parent AST_Gt_CB_WTs
 color 255,0,0
 type bigWig
