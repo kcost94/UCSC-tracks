@@ -101,6 +101,38 @@ parent Gt_IGMats
 color 255,0,0
 type bigWig
 
+track Gt_Liv_IGMats
+container multiWig
+shortLabel Gt_Liv_IGMats
+longLabel Gt_Liv_IGMats
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+autoScale off
+viewLimits 0:1000
+viewLimitsMax 0:100
+alwaysZero on
+smoothingWindow 5
+windowingFunction mean
+maxHeightPixels 100:80:8
+type bigWig
+
+track Gt_Liv_IGMats_Cast_Pat
+bigDataUrl ../4C_BigWig/Liver_Gt_IG_Mats_Cast_pat.bw
+shortLabel Gt_Liv_IGMats_Cast_Pat
+longLabel Gt_Liv_IGMats_Cast_Pat
+parent Gt_IGMats
+color  0,150,255
+type bigWig
+
+track Gt_Liv_IGMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Liver_Gt_IG_Mats_Bl6_mat.bw
+shortLabel Gt_Liv_IGMats_Bl6_Mat
+longLabel Gt_Liv_IGMats_Bl6_Mat
+parent Gt_IGMats
+color 255,0,0
+type bigWig
+
 track Gt_IGPats
 container multiWig
 shortLabel Gt_IGPats
@@ -803,8 +835,8 @@ type bigWig
 
 track Gt_Ct7Mats_Bl6_Mat
 bigDataUrl ../4C_BigWig/Gt_Ct7_Mats_CBA_Mat_Extrareads.bw
-shortLabel Gt_Ct7Mats_Bl6_Mat
-longLabel Gt_Ct7Mats_Bl6_Mat
+shortLabel Gt_Ct7Mats_CBA_Mat
+longLabel Gt_Ct7Mats_CBA_Mat
 parent Gt_Ct7Mats
 color 255,0,0
 type bigWig
@@ -826,15 +858,15 @@ maxHeightPixels 100:80:8
 type bigWig
 
 track Gt_Ct7Pats_Bl6_Pat
-bigDataUrl ../4C_BigWig/Gt_Ct7_Pats_Bl6_Patnew.bw
-shortLabel Gt_Ct7Pats_Bl6_Pat
-longLabel Gt_Ct7Pats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_C7_Pats_CBA_pat_new.bw
+shortLabel Gt_Ct7Pats_CBA_Pat
+longLabel Gt_Ct7Pats_CBA_Pat
 parent Gt_Ct7Pats
 color 0,150,255
 type bigWig
 
 track Gt_Ct7Pats_Cast_Mat
-bigDataUrl ../4C_BigWig/Gt_Ct7_Pats_Cast_Matnew.bw
+bigDataUrl ../4C_BigWig/Gt_C7_Pats_Cast_mat_new.bw
 shortLabel Gt_Ct7Pats_Cast_Mat
 longLabel Gt_Ct7Pats_Cast_Mat
 parent Gt_Ct7Pats
@@ -859,7 +891,7 @@ maxHeightPixels 100:80:8
 type bigWig
 
 track Gt_IndelMats_Cast_Pat
-bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Mats_Cast_Pat.bw
+bigDataUrl ../4C_BigWig/Gt_Indel_Mats_Cast_pat_new.bw
 shortLabel Gt_IndelMats_Cast_Pat
 longLabel Gt_IndelMats_Cast_Pat
 parent Gt_IndelMats
@@ -867,9 +899,9 @@ color 0,150,255
 type bigWig
 
 track Gt_IndelMats_Bl6_Mat
-bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Mats_Bl6_Mat.bw
-shortLabel Gt_IndelMats_Bl6_Mat
-longLabel Gt_IndelMats_Bl6_Mat
+bigDataUrl ../4C_BigWig/Gt_Indel_Mats_CBA_mat_new.bw
+shortLabel Gt_IndelMats_CBA_Mat
+longLabel Gt_IndelMats_CBA_Mat
 parent Gt_IndelMats
 color 255,0,0
 type bigWig
@@ -891,15 +923,15 @@ maxHeightPixels 100:80:8
 type bigWig
 
 track Gt_IndelPats_Bl6_Pat
-bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Pats_Bl6_Pat.bw
-shortLabel Gt_IndelPats_Bl6_Pat
-longLabel Gt_IndelPats_Bl6_Pat
+bigDataUrl ../4C_BigWig/Gt_Indel_Pats_CBA_pat_new.bw
+shortLabel Gt_IndelPats_CBA_Pat
+longLabel Gt_IndelPats_CBA_Pat
 parent Gt_IndelPats
 color 0,150,255
 type bigWig
 
 track Gt_IndelPats_Cast_Mat
-bigDataUrl ../4C_BigWig_Temps/Gt_Indel_Pats_Cast_Mat.bw
+bigDataUrl ../4C_BigWig/Gt_Indel_Pats_Cast_mat_new.bw
 shortLabel Gt_IndelPats_Cast_Mat
 longLabel Gt_IndelPats_Cast_Mat
 parent Gt_IndelPats
