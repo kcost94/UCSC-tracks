@@ -5,32 +5,6 @@ longLabel CAST SNP PASS
 color 100,100,100
 type bigBed
 
-track ChIP_RGM-OE_Flag_56_dedup
-bigDataUrl ../4C_BigWig/Gt_BC_WTs_Cast_Pat.bw
-shortLabel ChIP_RGM-OE_Flag_56_dedupt
-longLabel ChIP_RGM-OE_Flag_56_dedup
-parent Gzf1 
-color 0,150,255
-type bigWig
-
-
-track ChIP_Cas9-OE_Flag_35_dedup
-bigDataUrl ../4C_BigWig/Gt_BC_WTs_Cast_Pat.bw
-shortLabel ChIP_Cas9-OE_Flag_35_dedup
-longLabel ChIP_Cas9-OE_Flag_35_dedup
-parent Gzf1 
-color 0,150,255
-type bigWig
-
-
-track ChIP_Cas9_Input_dedup
-bigDataUrl ../4C_BigWig/Gt_BC_WTs_Cast_Pat.bw
-shortLabel ChIP_Cas9_Input_dedup
-longLabel ChIP_Cas9_Input_dedup
-parent Gzf1 
-color 0,150,255
-type bigWig
-
 
 
 track Gt_BC_WTs
